@@ -1,0 +1,104 @@
+<!--Thisthe designed a contact form.-->
+<!DOCTYPE html>
+<html>
+<head>  
+<link rel="styleSheet" href="cssfile.css">      
+<title>Contact Form</title> <!--This is the title of the code--> 
+</head>
+<body>
+    <div class="header"><!--This class defines the header of the the contact form-->
+    <h3>Contact Form</h3>
+    </div>
+    <div class="content"><!--Under this class you will have the content of the contact form-->
+        <div class="move">
+        <form>
+        <div class = "first name form"><!--This class asks the user for thier first name-->
+            <label for="First Name" class="label">First Name</label>
+            <div class="input">
+                <input type="text" id="First Name" name="First Name" class="formControl" required>
+            </div>
+            <br>    
+        <div class="last name form"><!--This class asks the user for thier last name-->
+            <label for="Last Name" class="label">Last Name</label>
+            <div class="input">
+                <input type="text" id="Last Name" name="Last Name" class="fcf-form-control" required>
+            </div>
+            <br>
+        <div class="email"><!--This class asks the user for thier email-->
+            <label for="Email" class="Email">Email</label>
+            <div class="input">
+                <input type="Email" id="Email" name="Email" class="fcf-form-control" required>
+        </div>
+            <br>    
+        <div class="race form"><!--This class creates a dropdown menu asking for the race of the user and gives the user the option of being white/caucasian, Black/African American, Asian American, American Indian, Hispanic and Native Hawaiian-->
+            <label for="Race" class="label">Race* </label>
+            <select name = "Race" id = "Race">
+                <option value = "White/Caucasian">White/Caucasian</option>
+                <option value = "Black/African American">Black/African American</option>
+                <option value = "Asian American">Asian American</option>
+                <option value = "American Indian/Alaska Native">American Indian/Alaska Native</option>
+                <option value = "Hispanic/Latino">Hispanic/Latino</option>
+                <option value = "Native Hawaiian/Other Specific Islander">Native Hawaiian/Other Specific Islander</option>
+            </select>
+            <br>
+            <br>
+       <div class="Address"><!--This class creates a textbox and asks the user to enter thier address-->
+            <label for="Address" class="label">Address</label>
+            <div class="input">
+                <textarea id="Address" name="Address" class="formControl" rows="4" maxlength="2000" required></textarea>
+            </div>
+            <br>   
+        </div>
+        <div class="martial status form"><!--This class creates a checkbox and gives the user the option of single, married, widowed and divorced-->
+            <label for="Martial Status" class="label">Martial Status</label>
+            <div class="input">
+                <input type ="checkbox" id="Martial Status" name="Martial Status" value="Single">
+                <label for="Martial Status"> Single </label>
+                <br>
+                <input type ="checkbox" id="Martial Status" name="Martial Status" value="Married">
+                <label for="Martial Status"> Married </label>
+                <br>
+                <input type ="checkbox" id="Martial Status" name="Martial Status" value="Widowed">
+                <label for="Martial Status"> Widowed </label>
+                <br>
+                <input type ="checkbox" id="Martial Status" name="Martial Status" value="Divorced">
+                <label for="Martial Status"> Divorced </label>
+            </div> 
+            <br>  
+        </div>
+        <div class="Children form"><!--This class creates a radio button and asks the user wether they have a child or not and gives them the option of yes or not-->
+            <label for="Do you Have Children" class="label">Do you have Children?</label>
+            <div class="input">
+                <input type ="radio" id="Children" name="Children" value="Yes">
+                <label for="Employement"> Yes </label>
+                <br>
+                <input type ="radio" id="Children" name="Children" value="No">
+                <label for="Employement"> No </label>
+            </div>    
+            </div> 
+            <br>  
+        </div>
+    </div>
+    <div class="Employment"><!--This class creates a radio button which asks the user wether they are employed or not and gives the user the option of "Yes" or "No" -->
+        <label for="Are you Employed" class="label">Are you Employed?</label>
+        <div class="input">
+            <input type ="radio" id="Employement" name="Employement" value="Yes">
+            <label for="Employement"> yes </label>
+            <br>
+            <input type ="radio" id="Employment" name="Employement" value="No">
+            <label for="Employement"> No </label>
+        </div> 
+        <br>  
+        <div class="finished"><!--This class creates a button for when the user is filling out the contact form is finished -->
+            <label for="Finished" class="label">If done, click</label> 
+            <button type="Finished" id="button" class="button">Finished</button>
+        </div>
+        </div>
+    </form>
+    
+</body>
+<!---I use ideas from the website W3School for this assighment-->
+<!---I also used ideas from website www.thesitewizard.com by author Christopher Weng. The link is https://www.thesitewizard.com/css/rectangular-box-border.shtml-->
+<!---I also used ideas from stack overflow. The link is https://stackoverflow.com/questions/19980659/css-short-border-line-->
+
+</html>
